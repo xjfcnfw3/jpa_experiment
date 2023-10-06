@@ -4,7 +4,6 @@ import javax.persistence.EntityNotFoundException;
 import learn.jpa.domain.board.Post;
 import learn.jpa.repository.PostRepository;
 import lombok.RequiredArgsConstructor;
-import org.springframework.orm.jpa.JpaObjectRetrievalFailureException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
